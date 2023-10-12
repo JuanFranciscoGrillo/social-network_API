@@ -1,3 +1,6 @@
+// Load environment variables from .env file
+require('dotenv').config();
+
 // Import necessary dependencies and modules
 const express = require('express');
 const routes = require('./routes');
